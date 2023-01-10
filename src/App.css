@@ -1,0 +1,86 @@
+*{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  box-sizing: border-box;
+  color: white;
+  background-color:#42361d;
+}
+.App{
+  padding: 30px;
+  
+}
+.subtitle{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+
+
+}
+
+.img1{
+  height: 200px;
+  width: 100%;
+}
+
+button{
+  color: rgb(15, 5, 41)
+}
+
+.input{
+  width: 90%;
+  height: 50px;
+  background-color: #443737;
+  box-shadow: 1px 1px 4px;
+}
+
+.img2{
+  width: 80%;
+}
+
+.rick-list{
+   display: flex;
+  flex-wrap: wrap;
+  list-style:none; 
+}
+
+.col{
+  width: 100%;
+  padding: 20px ;
+  text-align: center;
+}
+
+.div-min{
+  width: 33.333%;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.rick-card{
+  margin: auto;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, .3);
+  border-radius: 6px;
+  padding:10px;
+  height: 100%;
+
+}
+@media  (min-width: 500px){
+  .col{
+    width: 50%
+  }
+} 
+
+ @media  (min-width: 765px){
+  .col{
+    width: 33.333333%
+  }
+
+  }
+
+@media  (min-width: 992px){
+  .col{
+    width: 25%
+  }
+}
+  
